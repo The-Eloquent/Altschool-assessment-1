@@ -1,1 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ALT School Application Form</title>
+  </head>
 
+  <body>
+    <!-- Global Navigation -->
+    <header>
+        <nav aria-label="Main navigation">
+            <a href="index.html">About Me</a> |
+            <a href="form.html" aria-current="page">Application Form</a>
+        </nav>
+    </header>
+    <main>
+        <section aria-labelledby="form-title">
+            <h1 id="form-title">
+                Help us personalize your learning journey
+            </h1>
+
+            <p>
+                Please provide the information below to help us understand more about you and personalize your learning experience.
+            </p>
+          <aside>
+                <p>
+                    <strong>Important:</strong>
+                    Please make sure the information you provide is accurate.
+                </p>
+          </aside>
+          <form action="#" method="post">
+
+                <fieldset>
+                    <legend>Personal Information</legend>
+                  <p>
+                        <label for="first-name">First Name</label><br>
+                        <input
+                            type="text"
+                            id="first-name"
+                            name="first-name"
+                            required
+                        >
+                  </p>
+                  <p>
+                        <label for="last-name">Last Name</label><br>
+                        <input
+                            type="text"
+                            id="last-name"
+                            name="last-name"
+                            required
+                        >
+                  </p>
+                  </p>
+
+                    <p>
+                        <label for="middle-name">Middle Name (Optional)</label><br>
+                        <input
+                            type="text"
+                            id="middle-name"
+                            name="middle-name"
+                        >
+                    </p>
+                  <p>
+                        <label for="gender">Gender</label><br>
+                        <select id="gender" name="gender" required>
+                            <option value="">Select gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                        </select>
+                  </p>
+                  <p>
+                        <label for="date-of-birth">Date of Birth</label><br>
+                        <input
+                            type="date"
+                            id="date-of-birth"
+                            name="date-of-birth"
+                            required
+                        >
+                  </p>
+                  <p>
+                        <label for="phone">Phone Number</label><br>
+                        <input
+                            type="tel"
+                            id="phone"
+                            name="phone"
+                            required
+                        >
+                    </p>
+                </fieldset>
+            <fieldset>
+                    <legend>Location Information</legend>
+
+                    <p>
+                        <label for="country"> Country of Residence
+                        </label><br>
+                        <select id="country" name="country" required>
+                            <option value="">
+                                Select your country
+                            </option>
+                            <option value="nigeria">Nigeria</option>
+                            <option value="ghana">Ghana</option>
+                            <option value="kenya">Kenya</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </p>
+              <p>
+                        <label for="state-city"> State/City of Residence
+                        </label><br>
+                        <input
+                            type="text"
+                            id="state-city"
+                            name="state-city"
+                            required
+                        >
+              </p>
+              <p>
+                        <label for="address">Home Address</label><br>
+                        <textarea
+                            id="address"
+                            name="address"
+                            rows="4"
+                            cols="40"
+                            required
+                        ></textarea>
+              </p>
+            </fieldset>
+            <fieldset>
+              <legend>Background Information</legend>
+
+                    <p>
+                        <label for="education"> Educational Level
+                        </label><br>
+                        <select id="education" name="education" required>
+                            <option value="">
+                                Select educational level
+                            </option>
+                            <option value="secondary"> Secondary School
+                            </option>
+                            <option value="ond"> OND / National Diploma
+                            </option>
+                            <option value="hnd"> HND
+                            </option>
+                            <option value="bachelor"> Bachelor's Degree
+                            </option>
+                            <option value="masters"> Master's Degree
+                            </option>
+                            <option value="other"> Other
+                            </option>
+                        </select>
+                    </p>
+              <p>
+                        <label for="employment"> Employment Status
+                        </label><br>
+                        <select id="employment" name="employment" required>
+                            <option value=""> Select employment status
+                            </option>
+                            <option value="employed">Employed</option>
+                            <option value="self-employed"> Self-employed
+                            </option>
+                            <option value="student">Student</option>
+                            <option value="unemployed">Unemployed</option>
+                            <option value="other">Other</option>
+                        </select>
+              </p>
+              <p>
+                        <label for="referral">
+                            How did you hear about us?
+                        </label><br>
+                        <select id="referral" name="referral" required>
+                            <option value="">
+Select an option
+                            </option>
+                            <option value="social-media"> Social Media
+                            </option>
+                            <option value="friend"> Friend or Family
+                            </option>
+                            <option value="google">Google/Search Engine
+                            </option>
+                            <option value="event"> Event
+                            </option>
+                            <option value="other"> Other
+                            </option>
+                        </select>
+              </p>
+              <p>
+                    <button type="submit"> Save &amp; Continue
+                    </button>
+                </p>
+
+            </form>
+
+        </section>
+            </fieldset>
+      </main>
+
+    <footer>
+
+        <address>
+            Ibadan, Oyo State, Nigeria
+        </address>
+
+        <p>
+            &copy; 2026 Monsuroh Fagbenro. All rights reserved.
+        </p>
+
+    </footer>
+  </body>
+  </html>
